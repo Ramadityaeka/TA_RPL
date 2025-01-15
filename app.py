@@ -8,7 +8,7 @@ import time
 import streamlit.components.v1 as components
 
 # Load the trained model
-model = load_model('model.h5')
+model = load_model('model.keras')
 class_names = [
     'corak_insang', 'kawung', 'mega_mendung', 'parang', 'truntum'
 ]
